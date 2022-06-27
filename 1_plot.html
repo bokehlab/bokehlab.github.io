@@ -13081,7 +13081,7 @@ div#notebook {
 
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[1]:</div>
+<div class="prompt input_prompt">In&nbsp;[2]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">bokehlab</span>
@@ -13119,10 +13119,10 @@ div#notebook {
 
 
 
-<div id="5a1ae2e7-51b3-4ccb-adc0-42d548519f46"></div>
+<div id="9a6b394d-9ba1-412a-8292-8b8962e5a687"></div>
 <div class="output_subarea output_javascript ">
 <script type="text/javascript">
-var element = $('#5a1ae2e7-51b3-4ccb-adc0-42d548519f46');
+var element = $('#9a6b394d-9ba1-412a-8292-8b8962e5a687');
 (function(root) {
   function now() {
     return new Date();
@@ -13412,10 +13412,49 @@ if (force === true) {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[2]:</div>
+<div class="prompt input_prompt">In&nbsp;[1]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">plot</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">5</span><span class="p">],</span> <span class="s1">&#39;.-&#39;</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">bokehlab_config</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>figure.width_policy=&#39;max&#39;
+figure.height=300
+figure.active_scroll=&#39;wheel_zoom&#39;
+figure.height_policy=&#39;auto&#39;
+figure.width=500
+imshow.aspect_ratio=1
+resources=&#39;cdn&#39;
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[4]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">p</span> <span class="o">=</span> <span class="n">bp</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="o">**</span><span class="p">{</span><span class="s1">&#39;width_policy&#39;</span><span class="p">:</span> <span class="s1">&#39;max&#39;</span><span class="p">,</span> <span class="s1">&#39;height&#39;</span><span class="p">:</span> <span class="mi">300</span><span class="p">,</span> <span class="s1">&#39;active_scroll&#39;</span><span class="p">:</span> <span class="s1">&#39;wheel_zoom&#39;</span><span class="p">,</span> <span class="s1">&#39;height_policy&#39;</span><span class="p">:</span> <span class="s1">&#39;auto&#39;</span><span class="p">,</span> <span class="s1">&#39;width&#39;</span><span class="p">:</span> <span class="mi">500</span><span class="p">})</span>
+<span class="n">p</span><span class="o">.</span><span class="n">line</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">],[</span><span class="mi">6</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">4</span><span class="p">])</span>
+<span class="n">bp</span><span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="n">p</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -13434,7 +13473,7 @@ if (force === true) {
 
 <div class="output_html rendered_html output_subarea ">
 
-  <div class="bk-root" id="bd59df75-942a-409b-a4a1-8cdcf81d93a6" data-root-id="1003"></div>
+  <div class="bk-root" id="6e35f9cf-7bec-4ddd-8866-d860b6d392fc" data-root-id="1113"></div>
 
 </div>
 
@@ -13448,14 +13487,14 @@ if (force === true) {
 
 
 
-<div id="15758e24-d7fc-4dfe-818a-313acb230e27"></div>
+<div id="bcfde381-92a4-4a0c-bb52-d7ba86e55f6b"></div>
 <div class="output_subarea output_javascript ">
 <script type="text/javascript">
-var element = $('#15758e24-d7fc-4dfe-818a-313acb230e27');
+var element = $('#bcfde381-92a4-4a0c-bb52-d7ba86e55f6b');
 (function(root) {
   function embed_document(root) {
-  const docs_json = {"38d0280a-346b-468b-ae20-ff5cdb079ac0":{"defs":[],"roots":{"references":[{"attributes":{"below":[{"id":"1012"}],"center":[{"id":"1015"},{"id":"1019"}],"height":230,"left":[{"id":"1016"}],"renderers":[{"id":"1039"},{"id":"1045"}],"title":{"id":"1047"},"toolbar":{"id":"1027"},"width":500,"x_range":{"id":"1004"},"x_scale":{"id":"1008"},"y_range":{"id":"1006"},"y_scale":{"id":"1010"}},"id":"1003","subtype":"BLFigure","type":"Plot"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"hatch_alpha":{"value":0.1},"hatch_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"x":{"field":"x"},"y":{"field":"y"}},"id":"1043","type":"Circle"},{"attributes":{},"id":"1024","type":"ResetTool"},{"attributes":{"line_alpha":0.2,"line_color":"#1f77b4","x":{"field":"x"},"y":{"field":"y"}},"id":"1038","type":"Line"},{"attributes":{},"id":"1013","type":"BasicTicker"},{"attributes":{"source":{"id":"1034"}},"id":"1040","type":"CDSView"},{"attributes":{"data":{"x":{"__ndarray__":"AAAAAAEAAAACAAAA","dtype":"int32","order":"little","shape":[3]},"y":[1,2,5]},"selected":{"id":"1056"},"selection_policy":{"id":"1055"}},"id":"1034","type":"ColumnDataSource"},{"attributes":{},"id":"1025","type":"HelpTool"},{"attributes":{"active_scroll":{"id":"1021"},"tools":[{"id":"1020"},{"id":"1021"},{"id":"1022"},{"id":"1023"},{"id":"1024"},{"id":"1025"}]},"id":"1027","type":"Toolbar"},{"attributes":{"axis":{"id":"1012"},"coordinates":null,"group":null,"ticker":null},"id":"1015","type":"Grid"},{"attributes":{"bottom_units":"screen","coordinates":null,"fill_alpha":0.5,"fill_color":"lightgrey","group":null,"left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"right_units":"screen","syncable":false,"top_units":"screen"},"id":"1026","type":"BoxAnnotation"},{"attributes":{"fill_alpha":{"value":0.2},"fill_color":{"value":"#1f77b4"},"hatch_alpha":{"value":0.2},"hatch_color":{"value":"#1f77b4"},"line_alpha":{"value":0.2},"line_color":{"value":"#1f77b4"},"x":{"field":"x"},"y":{"field":"y"}},"id":"1044","type":"Circle"},{"attributes":{},"id":"1004","type":"DataRange1d"},{"attributes":{"source":{"id":"1034"}},"id":"1046","type":"CDSView"},{"attributes":{"overlay":{"id":"1026"}},"id":"1022","type":"BoxZoomTool"},{"attributes":{"coordinates":null,"formatter":{"id":"1053"},"group":null,"major_label_policy":{"id":"1054"},"ticker":{"id":"1013"}},"id":"1012","type":"LinearAxis"},{"attributes":{"coordinates":null,"data_source":{"id":"1034"},"glyph":{"id":"1036"},"group":null,"hover_glyph":null,"muted_glyph":{"id":"1038"},"nonselection_glyph":{"id":"1037"},"view":{"id":"1040"}},"id":"1039","type":"GlyphRenderer"},{"attributes":{"line_alpha":0.1,"line_color":"#1f77b4","x":{"field":"x"},"y":{"field":"y"}},"id":"1037","type":"Line"},{"attributes":{"coordinates":null,"group":null},"id":"1047","type":"Title"},{"attributes":{},"id":"1050","type":"BasicTickFormatter"},{"attributes":{"coordinates":null,"formatter":{"id":"1050"},"group":null,"major_label_policy":{"id":"1051"},"ticker":{"id":"1017"}},"id":"1016","type":"LinearAxis"},{"attributes":{},"id":"1023","type":"SaveTool"},{"attributes":{},"id":"1054","type":"AllLabels"},{"attributes":{},"id":"1010","type":"LinearScale"},{"attributes":{},"id":"1020","type":"PanTool"},{"attributes":{},"id":"1056","type":"Selection"},{"attributes":{},"id":"1053","type":"BasicTickFormatter"},{"attributes":{},"id":"1055","type":"UnionRenderers"},{"attributes":{"fill_color":{"value":"#1f77b4"},"hatch_color":{"value":"#1f77b4"},"line_color":{"value":"#1f77b4"},"x":{"field":"x"},"y":{"field":"y"}},"id":"1042","type":"Circle"},{"attributes":{},"id":"1021","type":"WheelZoomTool"},{"attributes":{},"id":"1006","type":"DataRange1d"},{"attributes":{"coordinates":null,"data_source":{"id":"1034"},"glyph":{"id":"1042"},"group":null,"hover_glyph":null,"muted_glyph":{"id":"1044"},"nonselection_glyph":{"id":"1043"},"view":{"id":"1046"}},"id":"1045","type":"GlyphRenderer"},{"attributes":{"line_color":"#1f77b4","x":{"field":"x"},"y":{"field":"y"}},"id":"1036","type":"Line"},{"attributes":{"axis":{"id":"1016"},"coordinates":null,"dimension":1,"group":null,"ticker":null},"id":"1019","type":"Grid"},{"attributes":{},"id":"1017","type":"BasicTicker"},{"attributes":{},"id":"1051","type":"AllLabels"},{"attributes":{},"id":"1008","type":"LinearScale"}],"root_ids":["1003"]},"title":"Bokeh Application","version":"2.4.3"}};
-  const render_items = [{"docid":"38d0280a-346b-468b-ae20-ff5cdb079ac0","root_ids":["1003"],"roots":{"1003":"bd59df75-942a-409b-a4a1-8cdcf81d93a6"}}];
+  const docs_json = {"2dd4f774-f36f-4e31-806a-f3ef721adc69":{"defs":[],"roots":{"references":[{"attributes":{"below":[{"id":"1122"}],"center":[{"id":"1125"},{"id":"1129"}],"height":300,"left":[{"id":"1126"}],"renderers":[{"id":"1148"}],"title":{"id":"1161"},"toolbar":{"id":"1137"},"width":500,"width_policy":"max","x_range":{"id":"1114"},"x_scale":{"id":"1118"},"y_range":{"id":"1116"},"y_scale":{"id":"1120"}},"id":"1113","subtype":"Figure","type":"Plot"},{"attributes":{},"id":"1130","type":"PanTool"},{"attributes":{},"id":"1114","type":"DataRange1d"},{"attributes":{},"id":"1134","type":"ResetTool"},{"attributes":{},"id":"1131","type":"WheelZoomTool"},{"attributes":{"overlay":{"id":"1136"}},"id":"1132","type":"BoxZoomTool"},{"attributes":{},"id":"1167","type":"BasicTickFormatter"},{"attributes":{},"id":"1133","type":"SaveTool"},{"attributes":{},"id":"1123","type":"BasicTicker"},{"attributes":{},"id":"1118","type":"LinearScale"},{"attributes":{},"id":"1135","type":"HelpTool"},{"attributes":{},"id":"1120","type":"LinearScale"},{"attributes":{"coordinates":null,"formatter":{"id":"1164"},"group":null,"major_label_policy":{"id":"1165"},"ticker":{"id":"1127"}},"id":"1126","type":"LinearAxis"},{"attributes":{},"id":"1170","type":"Selection"},{"attributes":{"coordinates":null,"formatter":{"id":"1167"},"group":null,"major_label_policy":{"id":"1168"},"ticker":{"id":"1123"}},"id":"1122","type":"LinearAxis"},{"attributes":{},"id":"1164","type":"BasicTickFormatter"},{"attributes":{"axis":{"id":"1122"},"coordinates":null,"group":null,"ticker":null},"id":"1125","type":"Grid"},{"attributes":{"active_scroll":{"id":"1131"},"tools":[{"id":"1130"},{"id":"1131"},{"id":"1132"},{"id":"1133"},{"id":"1134"},{"id":"1135"}]},"id":"1137","type":"Toolbar"},{"attributes":{},"id":"1168","type":"AllLabels"},{"attributes":{},"id":"1127","type":"BasicTicker"},{"attributes":{},"id":"1169","type":"UnionRenderers"},{"attributes":{"bottom_units":"screen","coordinates":null,"fill_alpha":0.5,"fill_color":"lightgrey","group":null,"left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"right_units":"screen","syncable":false,"top_units":"screen"},"id":"1136","type":"BoxAnnotation"},{"attributes":{"coordinates":null,"group":null},"id":"1161","type":"Title"},{"attributes":{"line_color":"#1f77b4","x":{"field":"x"},"y":{"field":"y"}},"id":"1145","type":"Line"},{"attributes":{"source":{"id":"1144"}},"id":"1149","type":"CDSView"},{"attributes":{"coordinates":null,"data_source":{"id":"1144"},"glyph":{"id":"1145"},"group":null,"hover_glyph":null,"muted_glyph":{"id":"1147"},"nonselection_glyph":{"id":"1146"},"view":{"id":"1149"}},"id":"1148","type":"GlyphRenderer"},{"attributes":{"axis":{"id":"1126"},"coordinates":null,"dimension":1,"group":null,"ticker":null},"id":"1129","type":"Grid"},{"attributes":{},"id":"1165","type":"AllLabels"},{"attributes":{"data":{"x":[1,2,3],"y":[6,5,4]},"selected":{"id":"1170"},"selection_policy":{"id":"1169"}},"id":"1144","type":"ColumnDataSource"},{"attributes":{},"id":"1116","type":"DataRange1d"},{"attributes":{"line_alpha":0.2,"line_color":"#1f77b4","x":{"field":"x"},"y":{"field":"y"}},"id":"1147","type":"Line"},{"attributes":{"line_alpha":0.1,"line_color":"#1f77b4","x":{"field":"x"},"y":{"field":"y"}},"id":"1146","type":"Line"}],"root_ids":["1113"]},"title":"Bokeh Application","version":"2.4.3"}};
+  const render_items = [{"docid":"2dd4f774-f36f-4e31-806a-f3ef721adc69","root_ids":["1113"],"roots":{"1113":"6e35f9cf-7bec-4ddd-8866-d860b6d392fc"}}];
   root.Bokeh.embed.embed_items_notebook(docs_json, render_items);
   }
   if (root.Bokeh !== undefined) {
@@ -13490,10 +13529,77 @@ var element = $('#15758e24-d7fc-4dfe-818a-313acb230e27');
 <div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span> 
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">p</span> <span class="o">=</span> <span class="n">plot</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">5</span><span class="p">],</span> <span class="s1">&#39;.-&#39;</span><span class="p">)</span>
 </pre></div>
 
     </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>&gt; <span class="ansi-green-intense-fg ansi-bold">c:\utilities\development\python37-64\lib\site-packages\bokehlab\__init__.py</span>(468)<span class="ansi-cyan-fg">_plot</span><span class="ansi-blue-intense-fg ansi-bold">()</span>
+<span class="ansi-green-intense-fg ansi-bold">    467 </span><span class="ansi-yellow-intense-fg ansi-bold">            </span><span class="ansi-green-intense-fg ansi-bold">import</span> ipdb<span class="ansi-yellow-intense-fg ansi-bold">;</span> ipdb<span class="ansi-yellow-intense-fg ansi-bold">.</span>set_trace<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
+<span class="ansi-green-intense-fg ansi-bold">--&gt; 468 </span><span class="ansi-yellow-intense-fg ansi-bold">            </span>p <span class="ansi-yellow-intense-fg ansi-bold">=</span> figure<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-yellow-intense-fg ansi-bold">**</span>kw<span class="ansi-yellow-intense-fg ansi-bold">)</span>
+<span class="ansi-green-intense-fg ansi-bold">    469 </span><span class="ansi-yellow-intense-fg ansi-bold">            </span><span class="ansi-green-intense-fg ansi-bold">if</span> grid <span class="ansi-green-intense-fg ansi-bold">is</span> <span class="ansi-green-intense-fg ansi-bold">False</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
+
+ipdb&gt; p kw
+{&#39;width_policy&#39;: &#39;max&#39;, &#39;height&#39;: 300, &#39;active_scroll&#39;: &#39;wheel_zoom&#39;, &#39;height_policy&#39;: &#39;auto&#39;, &#39;width&#39;: 500}
+ipdb&gt; n
+&gt; <span class="ansi-green-intense-fg ansi-bold">c:\utilities\development\python37-64\lib\site-packages\bokehlab\__init__.py</span>(469)<span class="ansi-cyan-fg">_plot</span><span class="ansi-blue-intense-fg ansi-bold">()</span>
+<span class="ansi-green-intense-fg ansi-bold">    468 </span><span class="ansi-yellow-intense-fg ansi-bold">            </span>p <span class="ansi-yellow-intense-fg ansi-bold">=</span> figure<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-yellow-intense-fg ansi-bold">**</span>kw<span class="ansi-yellow-intense-fg ansi-bold">)</span>
+<span class="ansi-green-intense-fg ansi-bold">--&gt; 469 </span><span class="ansi-yellow-intense-fg ansi-bold">            </span><span class="ansi-green-intense-fg ansi-bold">if</span> grid <span class="ansi-green-intense-fg ansi-bold">is</span> <span class="ansi-green-intense-fg ansi-bold">False</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
+<span class="ansi-green-intense-fg ansi-bold">    470 </span><span class="ansi-yellow-intense-fg ansi-bold">                </span>p<span class="ansi-yellow-intense-fg ansi-bold">.</span>xgrid<span class="ansi-yellow-intense-fg ansi-bold">.</span>visible <span class="ansi-yellow-intense-fg ansi-bold">=</span> <span class="ansi-green-intense-fg ansi-bold">False</span>
+
+ipdb&gt; p.width_policy
+*** SyntaxError: invalid syntax
+ipdb&gt; p p.width_policy
+&#39;auto&#39;
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[11]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">p</span><span class="o">.</span><span class="n">width_policy</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[11]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>&#39;auto&#39;</pre>
+</div>
+
+</div>
+
 </div>
 </div>
 
