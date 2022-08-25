@@ -24,7 +24,7 @@
     //             int(np.sum([1,2,3]))
     //         `));
             window.pyodide = pyodide;
-            console.log("pyodide ready");
+            console.log("pyodide loaded");
             await window.pyodide.loadPackage("scipy");
             console.log(window.pyodide.runPython(`
                 from math import pi
@@ -33,7 +33,7 @@
                              '1/(1+x^2)': (lambda x: 1/(1+x**2), -2, 2)}
                 BC_TYPES = ['not-a-knot', 'periodic', 'clamped', 'natural']
                 from scipy.interpolate import CubicSpline
-                'ok'
+                'initialization complete'
             `));
         }
         main();
