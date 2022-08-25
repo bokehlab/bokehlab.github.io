@@ -14,7 +14,7 @@
       return document.evaluate(path, document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
     }
     require([
-        'http://cdn.jsdelivr.net/pyodide/v0.20.0/full/pyodide.js', 
+        '//cdn.jsdelivr.net/pyodide/v0.20.0/full/pyodide.js', 
     ], function() {             
         async function main() {
             console.log('loading pyodide...');
